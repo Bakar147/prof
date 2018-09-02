@@ -1,0 +1,450 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    
+}
+
+#home
+{
+    height: 700;
+    widows: 100%;
+    background-image: url("images/Home_Bg.jpg");
+    background-size: 100% 100%;
+    
+}
+.home1
+{
+    height: 100% ;
+    width: 100% ;
+    background-color: rgba(0,0,0,.5);
+    background-size: 100% 100%;
+    position: relative;
+}
+.navbar
+{
+    width: 100%;
+      height: 80;
+      background-color: rgba(0,0,0,.2) ;
+      position: fixed;
+}
+.nav
+{
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    top:30;
+    left: 55%;
+    
+}
+
+.nav1
+{
+    width: 15% ;
+    color: white ;
+    text-align: center;
+       float: right ;
+       margin: 2;
+       
+}
+
+.navbar a
+{
+    text-decoration: none;
+    color: white;
+    font-stretch: expanded;
+    text-align: center;
+}
+.PORTFOLIO
+{
+    position: absolute;
+    top: 17;
+    left: 5%;
+    color: white;
+
+    font-size: 25;
+}
+
+.hi h1
+{
+    font-size: 100;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: rgba(255,255,255,.3);
+    
+}
+
+.pr 
+{
+    width: 40%;
+    height:30%;
+    font-size: 25;
+    color: rgb(117, 67, 184);    
+    position: absolute;
+    top: 50%;
+    left: 10%
+}
+.spec
+{
+    width: 500;
+    height: 50;
+    position: absolute;
+    top: 54.5% ;
+    left: 22%;
+    font-size: 25;
+    color:  rgb(155, 205, 221);
+    animation-name: special;
+    animation-duration:1.5s;
+    animation-direction: alternate;
+  animation-iteration-count: infinite;
+    
+    
+}
+@keyframes special
+{
+    from{left: 220}
+    to {right: 0}
+}
+/*
+@media (top:720px)
+{
+        .navbar
+        {
+            width: 100%;
+              height: 80;
+              background-color: white ;
+              position: fixed;
+        }
+        .nav
+        {
+            width: 40%;
+            height: 100%;
+            position: absolute;
+            top:30;
+            left: 55%;
+            
+        }
+        
+        .nav1
+        {
+            width: 15% ;
+            color: black ;
+            text-align: center;
+               float: right ;
+               margin: 2;
+               
+        }
+        
+        .navbar a
+        {
+            text-decoration: none;
+            color: black;
+            font-stretch: expanded;
+            text-align: center;
+        }
+        .PORTFOLIO
+        {
+            position: absolute;
+            top: 17;
+            left: 5%;
+            color: black;
+        
+            font-size: 25;
+        }
+
+}
+*/
+.clr
+{
+    clear: both;
+}
+.row
+{
+    width: 40;
+    height: 30;
+    background-image: url("images/row.png");
+    background-size: 100% 100%;
+    position: absolute;
+    top: 550;
+    left: 300;
+    animation-name: roww;
+    animation-duration:1.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite; 
+    animation-delay: 1s;
+}
+@keyframes roww
+{
+    from{top: 450}
+    to {bottom: 0}
+}
+
+@keyframes navvv
+{
+    from{top: 705 ; background-color: white; color: black  ;}
+}
+#ABOUT
+{
+    padding-top: 200;
+    height: 600;
+    
+}
+.im
+{
+    width: 450;
+    height: 80%;
+    background-image: url("images/about-img.jpg");
+    background-size: 100% 100%;
+    float: left;
+    margin-left: 100;
+    margin-right: 50;
+}
+.text
+{
+    width: 40%;
+    height: 80%;
+    float: left;
+    margin: 30;
+}
+.text p
+{
+    font-size: 18;
+    color: rgba(0,0,0,.5);
+    font-family: serif;
+    font-family: Andale Mono;
+}
+
+a
+{
+    text-decoration: none;
+ text-align: center;
+ color:white;
+}
+.text button
+{
+    width :130;
+    height:40;
+    background-color:black;
+}
+.text span
+{
+    color: black;
+}
+#SERVICES
+{
+    height: 700;
+    background-color: rgba(239, 243 ,244);
+    text-align: center;
+}
+
+.parent
+{
+    height: 500;
+    width: 90%;
+    margin: auto;
+    padding-left: 50;
+}
+.child
+{
+    width: 30%;
+    height: 50%;
+    float: left;
+    margin-right: 25;
+    
+}
+.home31
+{
+    height: 100%;
+    width: 100%;
+}
+#SKILLS
+{
+    height: 500;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(240,230,254);
+    margin-top: 50;
+}
+#SKILLS p{font-size: 45;}
+
+.home41
+{
+    width: 100%;
+    height: 400;
+    background-image: url("images/skills.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: white;
+}
+.home42
+{
+    width:100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.4);
+}
+.circle
+{
+    width: 110;
+    height: 110;
+    border-radius: 50%;
+    border: solid rgb(70, 255, 149);
+    float: left;
+    margin: 20;
+    text-align: center;
+    position: relative;
+}
+.circle b
+{
+    position: absolute;
+    top: 40;
+    left: 10;
+    text-align: center;
+}
+.lan
+{
+    
+    width: 120;
+    height: 40;
+    font-size: 20;
+    text-align: center;
+    border: solid rgb(95, 149, 231);
+    margin: auto;
+    position: relative;
+    background-color: rgba(217, 196, 200,.5);
+}
+.lan p
+{
+    position: absolute;
+    top: 10;
+    left: 10;
+    font-size: 25;
+}
+#WORKS
+{
+    height: 900;
+    width: 100%;
+}
+.work_parent
+{
+    height: 700;
+    width: 90%;
+    margin: auto;
+}
+.work_child
+{
+    width: 30%;
+    height: 45%;
+    float: left;
+    margin: 5;
+    margin-bottom: 10;
+    position: relative;
+    overflow: hidden;
+}
+.work_child .img1
+{
+    width: 300;
+    height: 300;
+    
+  
+}
+.bg
+{
+    width: 80%;
+    height: 90%;
+    background-color: white;
+    position: absolute;
+    top: 10;
+    left: 35;
+    /*
+    margin-left: 35;
+    position: absolute;
+    top: 320;
+    */
+    opacity: 0;
+     transition: 2s;
+}
+.bg .img2
+{
+    width: 50;
+    height: 50;
+    padding-left: 10;
+}
+.work_child:hover .bg
+{
+    opacity: 1;
+    /*
+    top: 10;
+    */
+    transition: 1s;
+}
+
+#CONTACT
+{
+    height: 850;
+    width: 100%;
+}
+.message
+{
+    height: 50%;
+    width:90%;
+    margin: auto;
+}
+.message input
+{
+    width: 40%;
+    height: 70;
+    margin: 15;
+    border: solid white;
+    border-bottom: solid black;
+}
+.message textarea
+{
+    width: 80%;
+    height: 150;
+    margin: 15;
+    border: solid white;
+    border-bottom: solid black;
+    font-size: 20;
+}
+.message button
+{
+    width: 120;
+    height: 50;
+    background-color: black;
+    color: white;
+}
+.inform
+{
+ width: 100%;
+ height: 300;
+ background-color: black;
+ background-size: 100% 100%;
+}
+.inf
+{
+    width: 18%;
+    height: 40%;
+    float: left;
+    color: white;
+    margin-top: 50;
+    margin-left: 20;
+}
+.inf p
+{
+    color: rgb(145,145,120);
+}
+.inform hr
+{
+    color: rgb(145,145,120);
+    background-color: rgb(145,145,120);
+    width: 80%;
+    margin: auto;
+}
+.rights
+{
+    height: 70;
+    width: 70%;
+    color: rgb(145,145,120);
+    margin: auto;
+}
